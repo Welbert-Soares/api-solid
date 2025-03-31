@@ -1,0 +1,5 @@
+<!-- env -->
+<!--
+NODE_ENV=development
+
+DATABASE_URL="postgresql://docker:docker@localhost:5432/apisolid?schema=public" -->
