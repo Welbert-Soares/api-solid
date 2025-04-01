@@ -28,7 +28,7 @@ const register = async (request: FastifyRequest, reply: FastifyReply) => {
       return reply.status(409).send({ message: error.message })
     }
 
-    return reply.status(500).send()
+    throw error
   }
 
   return reply.status(201).send()
